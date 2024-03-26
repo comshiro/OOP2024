@@ -1,8 +1,9 @@
+#include <math.h>
 class Canvas
 {
     int width;
     int height;
-    char canvas[width][height];
+    char** canvas;
 public:
     Canvas(int width, int height);
     void DrawCircle(int x, int y, int ray, char ch);
