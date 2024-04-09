@@ -1,3 +1,10 @@
+#include "Circuit.h"
+#include "Volvo.h"
+#include "BMW.h"
+#include "Seat.h"
+#include "Fiat.h"
+#include "RangeRover.h"
+
 int main()
 {
 	Circuit c;
