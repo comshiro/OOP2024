@@ -1,10 +1,9 @@
-
+#include "Weather.h"
 class Car{
-
-	int fuel_capacity;
-	int fuel_consumption;
-	int average_speed;
-
+protected:
+    double fuel_capacity; 
+    double fuel_consumption; 
+    double avg_speed[3]; 
 public:
-
+    virtual double CalculateTime(double circuit_length, Weather weather) = 0;
 };
