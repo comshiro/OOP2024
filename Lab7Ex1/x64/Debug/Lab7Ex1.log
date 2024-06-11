@@ -1,0 +1,15 @@
+﻿  main.cpp
+E:\OOP_2024\OOP2024\Lab7Ex1\Degrees.h(4,30): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+E:\OOP_2024\OOP2024\Lab7Ex1\Degrees.h(5,6): error C2059: syntax error: ')'
+  (compiling source file 'main.cpp')
+  
+E:\OOP_2024\OOP2024\Lab7Ex1\main.cpp(3,15): error C3688: invalid literal suffix '_Kelvin'; literal operator or literal operator template 'operator ""_Kelvin' not found
+  E:\OOP_2024\OOP2024\Lab7Ex1\main.cpp(3,15):
+  Literal operator must have a parameter list of the form 'unsigned long long' or 'const char *'
+  
+E:\OOP_2024\OOP2024\Lab7Ex1\main.cpp(4,15): error C3688: invalid literal suffix '_Fahrenheit'; literal operator or literal operator template 'operator ""_Fahrenheit' not found
+  E:\OOP_2024\OOP2024\Lab7Ex1\main.cpp(4,15):
+  Literal operator must have a parameter list of the form 'unsigned long long' or 'const char *'
+  

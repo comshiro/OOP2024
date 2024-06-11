@@ -1,0 +1,101 @@
+﻿  BMW.cpp
+  Circuit.cpp
+E:\OOP_2024\OOP2024\Lab6\Circuit.cpp(21,23): error C2248: 'Car::fuel_consumption': cannot access protected member declared in class 'Car'
+  E:\OOP_2024\OOP2024\Lab6\Car.h(5,12):
+  see declaration of 'Car::fuel_consumption'
+  E:\OOP_2024\OOP2024\Lab6\Car.h(2,7):
+  see declaration of 'Car'
+  
+E:\OOP_2024\OOP2024\Lab6\Circuit.cpp(21,48): error C2248: 'Car::fuel_capacity': cannot access protected member declared in class 'Car'
+  E:\OOP_2024\OOP2024\Lab6\Car.h(4,12):
+  see declaration of 'Car::fuel_capacity'
+  E:\OOP_2024\OOP2024\Lab6\Car.h(2,7):
+  see declaration of 'Car'
+  
+E:\OOP_2024\OOP2024\Lab6\Circuit.cpp(55,54): error C2248: 'Car::fuel_capacity': cannot access protected member declared in class 'Car'
+  E:\OOP_2024\OOP2024\Lab6\Car.h(4,12):
+  see declaration of 'Car::fuel_capacity'
+  E:\OOP_2024\OOP2024\Lab6\Car.h(2,7):
+  see declaration of 'Car'
+  
+  Fiat.cpp
+  main.cpp
+E:\OOP_2024\OOP2024\Lab6\Car.h(2,10): error C2011: 'Car': 'class' type redefinition
+  (compiling source file 'main.cpp')
+  E:\OOP_2024\OOP2024\Lab6\Car.h(2,7):
+  see declaration of 'Car'
+  
+E:\OOP_2024\OOP2024\Lab6\Volvo.h(5,22): error C2504: 'Car': base class undefined
+  (compiling source file 'main.cpp')
+  
+E:\OOP_2024\OOP2024\Lab6\Volvo.h(8,12): error C3668: 'Volvo::CalculateTime': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'main.cpp')
+  
+E:\OOP_2024\OOP2024\Lab6\BMW.h(4,20): error C2504: 'Car': base class undefined
+  (compiling source file 'main.cpp')
+  
+E:\OOP_2024\OOP2024\Lab6\BMW.h(7,12): error C3668: 'BMW::CalculateTime': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'main.cpp')
+  
+E:\OOP_2024\OOP2024\Lab6\Seat.h(4,21): error C2504: 'Car': base class undefined
+  (compiling source file 'main.cpp')
+  
+E:\OOP_2024\OOP2024\Lab6\Seat.h(7,12): error C3668: 'Seat::CalculateTime': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'main.cpp')
+  
+E:\OOP_2024\OOP2024\Lab6\Fiat.h(4,21): error C2504: 'Car': base class undefined
+  (compiling source file 'main.cpp')
+  
+E:\OOP_2024\OOP2024\Lab6\Fiat.h(7,12): error C3668: 'Fiat::CalculateTime': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'main.cpp')
+  
+E:\OOP_2024\OOP2024\Lab6\RangeRover.h(4,27): error C2504: 'Car': base class undefined
+  (compiling source file 'main.cpp')
+  
+E:\OOP_2024\OOP2024\Lab6\RangeRover.h(7,12): error C3668: 'RangeRover::CalculateTime': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'main.cpp')
+  
+E:\OOP_2024\OOP2024\Lab6\main.cpp(13,3): error C2664: 'void Circuit::AddCar(Car *)': cannot convert argument 1 from 'Volvo *' to 'Car *'
+  E:\OOP_2024\OOP2024\Lab6\main.cpp(13,20):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  E:\OOP_2024\OOP2024\Lab6\Circuit.h(16,10):
+  see declaration of 'Circuit::AddCar'
+  E:\OOP_2024\OOP2024\Lab6\main.cpp(13,3):
+  while trying to match the argument list '(Volvo *)'
+  
+E:\OOP_2024\OOP2024\Lab6\main.cpp(14,3): error C2664: 'void Circuit::AddCar(Car *)': cannot convert argument 1 from 'BMW *' to 'Car *'
+  E:\OOP_2024\OOP2024\Lab6\main.cpp(14,18):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  E:\OOP_2024\OOP2024\Lab6\Circuit.h(16,10):
+  see declaration of 'Circuit::AddCar'
+  E:\OOP_2024\OOP2024\Lab6\main.cpp(14,3):
+  while trying to match the argument list '(BMW *)'
+  
+E:\OOP_2024\OOP2024\Lab6\main.cpp(15,3): error C2664: 'void Circuit::AddCar(Car *)': cannot convert argument 1 from 'Seat *' to 'Car *'
+  E:\OOP_2024\OOP2024\Lab6\main.cpp(15,19):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  E:\OOP_2024\OOP2024\Lab6\Circuit.h(16,10):
+  see declaration of 'Circuit::AddCar'
+  E:\OOP_2024\OOP2024\Lab6\main.cpp(15,3):
+  while trying to match the argument list '(Seat *)'
+  
+E:\OOP_2024\OOP2024\Lab6\main.cpp(16,3): error C2664: 'void Circuit::AddCar(Car *)': cannot convert argument 1 from 'Fiat *' to 'Car *'
+  E:\OOP_2024\OOP2024\Lab6\main.cpp(16,19):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  E:\OOP_2024\OOP2024\Lab6\Circuit.h(16,10):
+  see declaration of 'Circuit::AddCar'
+  E:\OOP_2024\OOP2024\Lab6\main.cpp(16,3):
+  while trying to match the argument list '(Fiat *)'
+  
+E:\OOP_2024\OOP2024\Lab6\main.cpp(17,3): error C2664: 'void Circuit::AddCar(Car *)': cannot convert argument 1 from 'RangeRover *' to 'Car *'
+  E:\OOP_2024\OOP2024\Lab6\main.cpp(17,25):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  E:\OOP_2024\OOP2024\Lab6\Circuit.h(16,10):
+  see declaration of 'Circuit::AddCar'
+  E:\OOP_2024\OOP2024\Lab6\main.cpp(17,3):
+  while trying to match the argument list '(RangeRover *)'
+  
+  RangeRover.cpp
+  Seat.cpp
+  Volvo.cpp
+  Generating Code...

@@ -30,7 +30,7 @@ public:
     Number operator--(int);
 
     void SwitchBase(int newBase);
-    char* ConvertBase(int base, char* value, int needed_base);
+    char* ConvertBase(int base = 10, char* value, int needed_base = 2);
     void Print() const;
     int GetDigitsCount() const;
     int GetBase() const;

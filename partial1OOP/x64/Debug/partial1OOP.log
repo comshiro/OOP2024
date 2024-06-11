@@ -1,0 +1,31 @@
+﻿  main.cpp
+  PriorityQueue.cpp
+  Generating Code...
+E:\OOP_2024\OOP2024\partial1OOP\main.cpp(9,12): error C2679: binary '+=': no operator found which takes a right-hand operand of type 'int' (or there is no acceptable conversion)
+  E:\OOP_2024\OOP2024\partial1OOP\PriorityQueue.h(12,7):
+  could be 'void PriorityQueue::operator +=(PriorityQueue &)'
+  E:\OOP_2024\OOP2024\partial1OOP\main.cpp(9,12):
+  while trying to match the argument list '(PriorityQueue, int)'
+  
+E:\OOP_2024\OOP2024\partial1OOP\main.cpp(10,27): error C2440: 'type cast': cannot convert from 'PriorityQueue' to 'int'
+  E:\OOP_2024\OOP2024\partial1OOP\main.cpp(10,27):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+E:\OOP_2024\OOP2024\partial1OOP\main.cpp(11,12): error C2440: 'type cast': cannot convert from 'PriorityQueue' to 'int'
+  E:\OOP_2024\OOP2024\partial1OOP\main.cpp(11,12):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+E:\OOP_2024\OOP2024\partial1OOP\main.cpp(12,19): error C2676: binary '--': 'PriorityQueue' does not define this operator or a conversion to a type acceptable to the predefined operator
+E:\OOP_2024\OOP2024\partial1OOP\main.cpp(15,8): error C2679: binary '+=': no operator found which takes a right-hand operand of type 'int' (or there is no acceptable conversion)
+  E:\OOP_2024\OOP2024\partial1OOP\PriorityQueue.h(12,7):
+  could be 'void PriorityQueue::operator +=(PriorityQueue &)'
+  E:\OOP_2024\OOP2024\partial1OOP\main.cpp(15,8):
+  while trying to match the argument list '(PriorityQueue, int)'
+  
+E:\OOP_2024\OOP2024\partial1OOP\main.cpp(16,25): error C2064: term does not evaluate to a function taking 1 arguments
+E:\OOP_2024\OOP2024\partial1OOP\main.cpp(17,27): error C2440: 'type cast': cannot convert from 'PriorityQueue' to 'int'
+  E:\OOP_2024\OOP2024\partial1OOP\main.cpp(17,27):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+E:\OOP_2024\OOP2024\partial1OOP\main.cpp(18,25): error C2064: term does not evaluate to a function taking 1 arguments
+E:\OOP_2024\OOP2024\partial1OOP\main.cpp(19,25): error C2064: term does not evaluate to a function taking 1 arguments

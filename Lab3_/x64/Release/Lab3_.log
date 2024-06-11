@@ -1,0 +1,9 @@
+﻿  Source2.cpp
+E:\OOP_2024\OOP2024\Lab3_\Source2.cpp(30,28): error C2572: 'A::getInstance': redefinition of default argument: parameter 1
+  E:\OOP_2024\OOP2024\Lab3_\Source2.cpp(13,12):
+  see declaration of 'A::getInstance'
+  
+E:\OOP_2024\OOP2024\Lab3_\Source2.cpp(30,39): error C2572: 'A::getInstance': redefinition of default argument: parameter 2
+  E:\OOP_2024\OOP2024\Lab3_\Source2.cpp(13,12):
+  see declaration of 'A::getInstance'
+  

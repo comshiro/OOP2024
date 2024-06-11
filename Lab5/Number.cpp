@@ -276,7 +276,7 @@ int Number::GetBase() const {
     return base;
 }
 
-char* Number::ConvertBase(int base = 10, char* value, int neededBase = 2) {
+char* Number::ConvertBase(int base, char* value, int neededBase) {
 
     int decimalValue = 0;
     int power = 0;

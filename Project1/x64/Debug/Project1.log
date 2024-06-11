@@ -1,0 +1,11 @@
+﻿  FileName.cpp
+E:\OOP_2024\OOP2024\Project1\FileName.cpp(1,9): error C2440: 'initializing': cannot convert from 'const char [4]' to 'int'
+  E:\OOP_2024\OOP2024\Project1\FileName.cpp(1,9):
+  There is no context in which this conversion is possible
+  
+E:\OOP_2024\OOP2024\Project1\FileName.cpp(2,1): error C2143: syntax error: missing ';' before '{'
+E:\OOP_2024\OOP2024\Project1\FileName.cpp(3,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\OOP_2024\OOP2024\Project1\FileName.cpp(4,2): error C2059: syntax error: 'for'
+E:\OOP_2024\OOP2024\Project1\FileName.cpp(6,3): error C2059: syntax error: 'return'
+E:\OOP_2024\OOP2024\Project1\FileName.cpp(7,1): error C2059: syntax error: '}'
+E:\OOP_2024\OOP2024\Project1\FileName.cpp(7,1): error C2143: syntax error: missing ';' before '}'
